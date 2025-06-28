@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Set Go</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="main-title">Get Set Go</h1>
+    <div class="pong-container">
+        <canvas id="pong"></canvas>
+        <div id="scoreboard">
+            <span id="playerScore">0</span>
+            <span>:</span>
+            <span id="aiScore">0</span>
+        </div>
+        <div id="labels">
+            <span class="player-label">You</span>
+            <span class="ai-label">AI</span>
+        </div>
+        <div id="flash-message" style="display:none;">
+            <span id="flash-text"></span>
+            <div class="flash-sub"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
