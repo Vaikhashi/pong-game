@@ -17,4 +17,6 @@ A Pong game I made one evening when I was bored. Plain HTML, CSS and JavaScript,
 
 ## Play
 
-Open `pong.html` in your browser.
+Play it here: https://vaikhashi.github.io/pong-game/pong.html
+
+Or download the repo and open `pong.html` in your browser.
